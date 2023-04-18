@@ -64,6 +64,41 @@ h1 {
     color: #8090b5;    
 }
 
+/* Todolist */
+
+.todolist {
+    padding: 30px;
+}
+
+ul {
+    display: inline;
+    list-style-type: none;
+    line-height: 50px;
+}
+
+.arrow-down {
+    font-size: 10px;
+    vertical-align:middle;
+}
+
+.checked {
+    color: green;
+    font-size: 0.8rem;
+    font-weight: lighter;
+    border-radius: 50%;
+    border: 1px solid green;
+}
+
+.tasks-tag {
+    border-radius: 30px;
+    padding: 5px 10px;
+    color: #fff;
+    font-size: 0.9rem;
+}
+
+li{
+    font-weight: lighter;
+}
 
 /* Utilities */
 
@@ -74,3 +109,37 @@ h1 {
 .text-white {
     color: #fff;
 }
+
+.separator  {
+    height: 2px;
+}
+
+.bolder {
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.bg-blue {
+    background-color: #45abea;
+}
+
+.bg-orange {
+    background-color: #f29e33;
+}
+
+.bg-strong-green {
+    background-color: #64c0a9;
+}
+
+.bg-green {
+    background-color: #b0c926;
+}
+
+.bg-purple {
+    background-color: #9c72e4;
+}
+
+.bg-pink {
+    background-color: #d863a1;
+}
+
