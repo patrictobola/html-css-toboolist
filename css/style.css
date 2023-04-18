@@ -2,4 +2,34 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #bbbbbb;
+}
+
+/* Header */
+
+#banner {
+    height: 80px;
+}
+
+#banner-logo {
+    vertical-align: middle;
+    margin-left: 20px;    
+    /* padding-top: 10px; */
+}
+
+h1 {
+    display: inline;
+    vertical-align: middle;
+    font-size: 2.5rem;
+    font-weight:900;
+}
+
+/* Utilities */
+
+.bg-white {
+    background-color: #fff;
 }
