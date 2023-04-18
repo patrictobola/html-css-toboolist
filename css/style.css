@@ -68,6 +68,7 @@ h1 {
 
 .todolist {
     padding: 30px;
+    border-radius: 0px 0px 10px 10px;
 }
 
 ul {
@@ -88,6 +89,14 @@ ul {
     border-radius: 50%;
     border: 1px solid green;
 }
+.crossed {
+    color: red;
+    font-size: 0.8rem;
+    font-weight: lighter;
+    border-radius: 50%;
+    border: 1px solid red;
+}
+
 
 .tasks-tag {
     border-radius: 30px;
@@ -101,6 +110,13 @@ li{
 }
 
 /* Utilities */
+
+.editorial {
+    background-color: #45abea;
+}
+.editorial::before {
+    content: "Editorial";
+}
 
 .bg-white {
     background-color: #fff;
@@ -119,27 +135,46 @@ li{
     font-size: 1.2rem;
 }
 
-.bg-blue {
-    background-color: #45abea;
-}
 
-.bg-orange {
+/* Tasks Tags  */
+
+
+.mobile {
     background-color: #f29e33;
 }
-
-.bg-strong-green {
-    background-color: #64c0a9;
+.mobile::before {
+    content: "Mobile";
 }
 
-.bg-green {
+
+.sales {
     background-color: #b0c926;
 }
-
-.bg-purple {
-    background-color: #9c72e4;
+.sales::before {
+    content: "Sales";
 }
 
-.bg-pink {
+
+.recruiting {
+    background-color: #64c0a9;
+}
+.recruiting::before {
+    content: "Recruiting";
+}
+
+
+.q1-goals {
+    background-color: #9c72e4;
+}
+.q1-goals::before {
+    content: "Q1-goals";
+}
+
+
+.website {
     background-color: #d863a1;
+}
+.website::before {
+    content: "Website";
 }
 
