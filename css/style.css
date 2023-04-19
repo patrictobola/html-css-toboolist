@@ -119,13 +119,13 @@ li {
     font-size: 0.7rem;
 }
 
-li{
+li {
     font-weight: lighter;
 }
 
 /* Utilities */
 
-.editorial {
+.bg-blue {
     background-color: #45abea;
 }
 .editorial::before {
@@ -144,46 +144,18 @@ li{
     height: 2px;
 }
 
-
-/* Tasks Tags  */
-
-
-.mobile {
+.bg-orange {
     background-color: #f29e33;
 }
-.mobile::before {
-    content: "Mobile";
-}
-
-
-.sales {
+bg-lightgreen {
     background-color: #b0c926;
 }
-.sales::before {
-    content: "Sales";
-}
-
-
-.recruiting {
+.bg-green {
     background-color: #64c0a9;
 }
-.recruiting::before {
-    content: "Recruiting";
-}
-
-
-.q1-goals {
+.bg-purple {
     background-color: #9c72e4;
 }
-.q1-goals::before {
-    content: "Q1-goals";
-}
-
-
-.website {
+.bg-pink {
     background-color: #d863a1;
 }
-.website::before {
-    content: "Website";
-}
-
